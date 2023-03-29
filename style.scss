@@ -220,11 +220,13 @@ nav {
     font-size: 16px;
 }
 .projects {
-    background-color: #2727;
+    background-color: #272727;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
+}
+.prj_table {
     opacity: 0;
 }
 #prj_title_text {
@@ -279,5 +281,54 @@ nav {
     img {
         margin-bottom: 6px;
         width: 120px;
+    }
+}
+.contact {
+    background-color: #202020;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    .contact_container {
+        display: inline;
+        opacity: 0;
+
+        .contact_object {
+            display: inline-block;
+            margin-right: 120px;
+        }
+        
+        #contact_email, #contact_text {
+            margin-bottom: 60px;
+            color: #c9c9c9;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            user-select: none;
+        }
+        #contact_email {
+            cursor: pointer;
+            font-weight: 500;
+
+            a {
+                text-decoration: none;
+                color: #FFF;
+                transition: color 1s;
+            }
+        }
+        #contact_email a:hover {
+            color: #aaaaaa;
+            transition: color 1s;
+        }
+    }
+}
+footer {
+    background-color: #151515;
+    padding: 20px;
+
+    h1 {
+        color: #FFF;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
     }
 }

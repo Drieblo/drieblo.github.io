@@ -1,8 +1,10 @@
 let op = 1;
 let minh = 100;
+
 let isShowed = false;
 let isShowed2 = false;
 let isShowed3 = false;
+let isShowed4 = false;
 
 $('#anim').attr('draggable', false);
 $('#logo').attr('draggable', false);
@@ -124,15 +126,9 @@ particlesJS("particles-js", {
     "retina_detect": true
 });
 
-function scrollToAbout() {
+function scroll(scrl) {
     $("HTML, BODY").animate({
-        scrollTop: 1000
-    }, 2000);
-}
-
-function scrollToSotrud() {
-    $("HTML, BODY").animate({
-        scrollTop: 2000
+        scrollTop: scrl
     }, 2000);
 }
 
@@ -153,11 +149,18 @@ addEventListener('scroll', () => {
             isShowed2 = true;
         }
     }
-    // if(window.scrollY > 2400) {
-    //     if(!isShowed3) {
-    //         $('.prj_table').animate({opacity: '1'}, 1000);
+    if(window.scrollY > 2400) {
+        if(!isShowed3) {
+            $('.prj_table').animate({opacity: '1'}, 1000);
 
-    //         isShowed3 = true;
-    //     }
-    // }
+            isShowed3 = true;
+        }
+    }
+    if(window.scrollY > 3200) {
+        if(!isShowed4) {
+            $(".contact_container").animate({opacity: '1'}, 1000);
+
+            isShowed4 = true;
+        }
+    }
 });

@@ -264,6 +264,10 @@ nav {
   height: 100vh;
 }
 
+.prj_table {
+  opacity: 0;
+}
+
 #prj_title_text {
   font-size: 39px;
   font-family: "Montserrat", sans-serif;
@@ -323,4 +327,52 @@ nav {
 .prj_cell img {
   margin-bottom: 6px;
   width: 120px;
+}
+
+.contact {
+  background-color: #202020;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.contact .contact_container {
+  display: inline;
+  opacity: 0;
+}
+.contact .contact_container .contact_object {
+  display: inline-block;
+  margin-right: 120px;
+}
+.contact .contact_container #contact_email, .contact .contact_container #contact_text {
+  margin-bottom: 60px;
+  color: #c9c9c9;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.contact .contact_container #contact_email {
+  cursor: pointer;
+  font-weight: 500;
+}
+.contact .contact_container #contact_email a {
+  text-decoration: none;
+  color: #FFF;
+  transition: color 1s;
+}
+.contact .contact_container #contact_email a:hover {
+  color: #aaaaaa;
+  transition: color 1s;
+}
+
+footer {
+  background-color: #151515;
+  padding: 20px;
+}
+footer h1 {
+  color: #FFF;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
 }/*# sourceMappingURL=style.css.map */
