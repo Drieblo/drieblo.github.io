@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="res/img/logo.png" type="image/png">
+        <link rel="stylesheet" href="style/style.css">
+        <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+        <title>Drieblo - Мы сделаем то, что другим не удавалось</title>
+    </head>
+<body>
+    <div id="content">
+        <div id="particles-js"></div>
+        <header class="thumbinal">
+            <nav>
+                <img src="res/img/biglogo.png" id="logo"/>
+                <div class="nav_block">
+                    <ul>
+                        <li><a href="javascript:scrollToAbout();">О нас</a></li>
+                        <li><a href="javascript:scrollToSotrud();">Коллектив</a></li>
+                        <li><a>Наши проекты</a></li>
+                        <li><a id="last">Контакты</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="main">
+                <div class="text_bar">
+                    <h1 id="title">Мы сделаем то, что другим не удавалось</h1>
+                    <h2 id="description">
+                        Мы - компания созданная в 2016 году.<br>
+                        Создаём для вас игры, приложения и другое
+                    </h2>
+                </div>
+                <div class="animation">
+                    <img src="res/anim/phone.svg" width="400px" alt="" id="anim"/>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="about">
+                <div class="about_text">
+                    <h1 id="about_title">О нас</h1>
+                    <p id="about_description">
+                        Мы компания которая была создана в 2016 году.<br>
+                        Только в 2020 году мы начали полноценно работать.<br>
+                        За всё время у нас было много сотрудников но, <br>
+                        сейчас у нас остались те кто реально хотят работать.<br>
+                    </p>
+                </div>
+                <div class="about_anim">
+                    <img src="res/anim/years.svg" alt="" id="about_anim" width="500px"/>
+                </div>
+            </div>
+            <div class="workers">
+                <div class="w_table">
+                    <div class="w_box">
+                        <div class="w_cell" id="alixi">
+                            <img src="res/img/alixi.jpg" alt="" width="100px" id="wrk_img"/>
+                            <h2 id="w_title">TheAlixi</h2>
+                            <div class="works">
+                                <p id="rown">Основатель</p>
+                                <p id="rdev">Программист</p>
+                            </div>
+                        </div>
+                        <div class="w_cell" id="spaik">
+                            <img src="res/img/spike.png" alt="" width="100px" id="wrk_img"/>
+                            <h2 id="w_title">SPAIK[PRO]</h2>
+                            <div class="works">
+                                <p id="rgen">Генеральный<br>директор</p>
+                            </div>
+                        </div>
+                        <div class="w_cell" id="vlad">
+                            <img src="res/img/vlad.jpg" alt="" width="100px" id="wrk_img"/>
+                            <h2 id="vlad">VLADISLAVENOK</h2>
+                            <div class="works">
+                                <p id="rmen">Менеджер</p>
+                                <p id="rdes">Дизайнер</p>
+                            </div>
+                        </div>
+                        <div class="w_cell" id="rafkik">
+                            <img src="res/img/rafkik.jpg" alt="" width="100px" id="wrk_img"/>
+                            <h2 id="w_title">Rafkik</h2>
+                            <div class="works">
+                                <p id="rkur">Куратор</p>
+                                <p id="rkre">Креатор</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w_box">
+                        <div class="w_cell" id="zhena">
+                            <img src="res/img/zhena.jpg" alt="" width="100px" id="wrk_img"/>
+                            <h2 id="w_title">Женя</h2>
+                            <div class="works">
+                                <p id="rdb">База данных</p>
+                            </div>
+                        </div>
+                        <div class="w_cell" id="kirill">
+                            <img src="res/img/kirill.jpg" alt="" width="100px" id="wrk_img"/>
+                            <h2 id="w_title">Кирилл</h2>
+                            <div class="works">
+                                <p id="rmen">Менеджер</p>
+                                <p id="rmuzn">Музыкант</p>
+                            </div>
+                        </div>
+                        <div class="w_cell" id="vlad2">
+                            <img src="res/img/vlad_2.jpg" alt="" width="100px" id="wrk_img"/>
+                            <h2 id="w_title">Влад</h2>
+                            <div class="works">
+                                <p id="rtex">Тех поддержка</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="title">
+                    <h1 id="workers_title">Наши сотрудники</h1>
+                </div>
+            </div> 
+            <div class="projects">
+                <div class="prj_title">
+                    <h1 id="prj_title_text">Наши проекты</h1>
+                </div>
+                <div class="prj_table">
+                    <div class="prj_box">
+                        <div class="prj_cell">
+                            <img src="res/img/gdz_plus.png" alt="" id="GDZ_img">
+                            <p id="prj_title">GDZ+</p>
+                            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.drieblo.apps.school.gdzplus&hl=ru&gl=US" id="prj_btn">Открыть</a>
+                        </div>
+                        <div class="prj_cell">
+                            <img src="res/img/openseq.png" alt="" id="OPENSEQ_img">
+                            <p id="prj_title">OpenSeq</p>
+                            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.drieblo.apps.openseq&hl=ru&gl=US" id="prj_btn">Открыть</a>
+                        </div>
+                        <div class="prj_cell">
+                            <img src="res/img/wifispeed.png" alt="" id="WifiSpeed_img">
+                            <p id="prj_title">WifiSpeed</p>
+                            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.drieblo.apps.wifispeed&hl=ru&gl=US" id="prj_btn">Открыть</a>
+                        </div>
+                        <div class="prj_cell">
+                            <img src="res/img/drieblopay.png" alt="" id="DriebloPay_img">
+                            <p id="prj_title">Drieblo Pay</p>
+                            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.drieblo.apps.pay&hl=ru&gl=US" id="prj_btn">Открыть</a>
+                        </div>
+                    </div>
+                    <div class="prj_box">
+                        <div class="prj_cell">
+                            <img src="res/img/id.png" alt="" id="DriebloID_img">
+                            <p id="prj_title">Drieblo ID</p>
+                            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.drieblo.apps.id&hl=ru&gl=US" id="prj_btn">Открыть</a>
+                        </div>
+                        <div class="prj_cell">
+                            <img src="res/img/businesman.png" alt="" id="BusinessMan_img">
+                            <p id="prj_title">BusinessMan</p>
+                            <a target="_blank" href="https://t.me/drieblo/422" id="prj_btn">Открыть</a>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </main>
+	</div>
+    
+    <script type="text/javascript" src="scripts/particles.js"></script>
+    <script type="text/javascript" src="scripts/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+// $('html').on ('mousewheel', function (e) {
+//     var delta = e.originalEvent.wheelDelta;
+
+//     if (delta < 0) {
+//         // Down
+
+//         if(op >= 0) {
+//             op = op - 0.2; 
+//         }
+//     } else if (delta > 0) {
+//         // Up
+        
+//         if(op <= 1) {
+//             op = op + 0.2;
+//         }
+//     }
+
+//     $('#title').animate({'opacity': op}, 100);
+//     $('#description').animate({'opacity': op},100);
+//     $('#anim').animate({'opacity': op}, 100);
+// });
