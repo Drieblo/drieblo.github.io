@@ -30,35 +30,7 @@ nav {
 
 .about {
   height: 100vh;
-}
-
-.nav_block {
-  float: right;
-  padding: 24px;
-}
-
-.nav_block ul li {
-  display: inline-block;
-  margin-right: 120px;
-}
-
-.nav_block ul li a {
-  font-size: 30px;
-  color: white;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  cursor: pointer;
-  position: relative;
-  text-decoration: none;
-  transition: color 1s;
-}
-
-.nav_block ul li a:hover {
-  color: rgb(148, 148, 148);
-  transition: color 1s;
+  width: 100%;
 }
 
 #last {
@@ -66,7 +38,7 @@ nav {
 }
 
 #logo {
-  width: 250px;
+  width: 300px;
   display: inline-block;
   margin-left: 12px;
 }
@@ -76,6 +48,7 @@ nav {
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
+  padding-left: 30px;
 }
 
 #title {
@@ -380,4 +353,4 @@ footer h1 {
   color: #FFF;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=stylem.css.map */

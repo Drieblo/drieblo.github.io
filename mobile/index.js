@@ -11,20 +11,6 @@ let isShowed4 = false;
 //     console.log("HIDE");
 // }
 
-if (navigator.userAgent.match(/Android/i)
-         || navigator.userAgent.match(/webOS/i)
-         || navigator.userAgent.match(/iPhone/i)
-         || navigator.userAgent.match(/iPad/i)
-         || navigator.userAgent.match(/iPod/i)
-         || navigator.userAgent.match(/BlackBerry/i)
-         || navigator.userAgent.match(/Windows Phone/i)) {
-    console.log("Device is mobile");
-    window.open('mobile/', '_self');
-}
-else {
-    console.log("Device is not mobile");
-}
-
 $('#anim').attr('draggable', false);
 $('#logo').attr('draggable', false);
 $('#about_anim').attr('draggable', false);
