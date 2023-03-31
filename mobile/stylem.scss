@@ -47,18 +47,18 @@ nav {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     margin-bottom: 20px;
-    opacity: 0;
+     
     position: relative;
 }
 #description {
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    opacity: 0;
+     
     position: relative;
 }
 #anim {
-    opacity: 0;
+     
     position: relative;
 }
 .main {
@@ -96,9 +96,6 @@ nav {
 .about_text {
     padding-right: 15%;
 }
-#about_anim {
-    opacity: 0;
-}
 #about_title {
     font-size: 50px;
     font-family: 'Montserrat', sans-serif;
@@ -106,7 +103,7 @@ nav {
     color: white;
     margin-bottom: 50px;
     user-select: none;
-    opacity: 0;
+     
 }
 #about_description {
     font-size: 32px;
@@ -114,7 +111,7 @@ nav {
     font-weight: 400;
     color: rgb(230, 230, 230);
     user-select: none;
-    opacity: 0;
+     
 }
 .workers {
     background-color: #303030;
@@ -130,9 +127,6 @@ nav {
     color: white;
     user-select: none;
     margin-bottom: 50px;
-}
-.w_table {
-    opacity: 0;
 }
 .w_box {
     margin-top: 100px;
@@ -211,9 +205,6 @@ nav {
     justify-content: center;
     height: 100vh;
 }
-.prj_table {
-    opacity: 0;
-}
 #prj_title_text {
     font-size: 39px;
     font-family: 'Montserrat', sans-serif;
@@ -277,7 +268,7 @@ nav {
 
     .contact_container {
         display: inline;
-        opacity: 0;
+         
 
         .contact_object {
             display: inline-block;

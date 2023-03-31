@@ -1,11 +1,6 @@
 let op = 1;
 let minh = 100;
 
-let isShowed = false;
-let isShowed2 = false;
-let isShowed3 = false;
-let isShowed4 = false;
-
 // if($('body').css('width') < 1370) {
 //     $('#anim').css('display', 'none');
 //     console.log("HIDE");
@@ -136,36 +131,3 @@ function scroll(scrl) {
         scrollTop: scrl
     }, 2000);
 }
-
-addEventListener('scroll', () => {
-    if(window.scrollY > 800) {
-        if(!isShowed) {
-            $('#about_title').animate({opacity: '1'}, 1000);
-            $('#about_description').animate({opacity: '1'}, 1000);
-            $('#about_anim').animate({opacity: '1'}, 2000);
-
-            isShowed = true;
-        }
-    }
-    if(window.scrollY > 1600) {
-        if(!isShowed2) {
-            $('.w_table').animate({opacity: '1'}, 1000);
-
-            isShowed2 = true;
-        }
-    }
-    if(window.scrollY > 2400) {
-        if(!isShowed3) {
-            $('.prj_table').animate({opacity: '1'}, 1000);
-
-            isShowed3 = true;
-        }
-    }
-    if(window.scrollY > 3200) {
-        if(!isShowed4) {
-            $(".contact_container").animate({opacity: '1'}, 1000);
-
-            isShowed4 = true;
-        }
-    }
-});
