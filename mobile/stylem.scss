@@ -103,7 +103,8 @@ nav {
     color: white;
     margin-bottom: 50px;
     user-select: none;
-    margin-left: 100px;
+    position: relative;
+    left: 100px;
 }
 #about_description {
     font-size: 26px;
@@ -111,7 +112,8 @@ nav {
     font-weight: 400;
     color: rgb(230, 230, 230);
     user-select: none;
-    margin-left: 100px;
+    position: relative;
+    left: 100px;
 }
 .workers {
     background-color: #303030;
