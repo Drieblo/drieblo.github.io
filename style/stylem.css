@@ -119,7 +119,7 @@ nav {
      -moz-user-select: none;
           user-select: none;
   position: relative;
-  left: 100px;
+  left: 30px;
 }
 
 #about_description {
@@ -131,7 +131,7 @@ nav {
      -moz-user-select: none;
           user-select: none;
   position: relative;
-  left: 100px;
+  left: 30px;
 }
 
 .workers {
