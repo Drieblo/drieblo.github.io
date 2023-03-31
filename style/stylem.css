@@ -118,6 +118,7 @@ nav {
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
+  margin-left: 40px;
 }
 
 #about_description {
@@ -128,6 +129,7 @@ nav {
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
+  margin-left: 40px;
 }
 
 .workers {
